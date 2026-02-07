@@ -60,7 +60,7 @@ where `a_i` and `b_i` are the _ith_ components of vectors **A** and **B**, respe
 ## Usage
 
 ```javascript
-import dchebychev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@esm/index.mjs';
+import dchebychev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@v0.1.1-esm/index.mjs';
 ```
 
 #### dchebychev( N, x, strideX, y, strideY )
@@ -174,7 +174,7 @@ var z = dchebychev.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dchebychev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@esm/index.mjs';
+import dchebychev from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
