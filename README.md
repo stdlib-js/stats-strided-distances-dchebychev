@@ -62,7 +62,7 @@ where `a_i` and `b_i` are the _ith_ components of vectors **A** and **B**, respe
 To use in Observable,
 
 ```javascript
-dchebychev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@umd/browser.js' )
+dchebychev = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -74,7 +74,7 @@ var dchebychev = require( 'path/to/vendor/umd/stats-strided-distances-dchebychev
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -196,7 +196,7 @@ var z = dchebychev.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-distances-dchebychev@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
